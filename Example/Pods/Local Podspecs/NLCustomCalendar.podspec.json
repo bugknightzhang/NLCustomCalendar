@@ -1,0 +1,22 @@
+{
+  "name": "NLCustomCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of NLCustomCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wz_yinglong/NLCustomCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wz_yinglong": "wz_yinglong@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wz_yinglong/NLCustomCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NLCustomCalendar/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NLCustomCalendar (0.1.0)
+
+DEPENDENCIES:
+  - NLCustomCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  NLCustomCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NLCustomCalendar: 88f11e1ab6b6e09fc721cecc682b08877626f9f5
+
+PODFILE CHECKSUM: 25a6d98d854e52122c44919e9ce970026ddb11fe
+
+COCOAPODS: 1.6.2

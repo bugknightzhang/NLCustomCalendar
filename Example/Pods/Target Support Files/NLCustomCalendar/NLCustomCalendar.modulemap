@@ -1,0 +1,6 @@
+framework module NLCustomCalendar {
+  umbrella header "NLCustomCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
