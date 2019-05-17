@@ -96,7 +96,7 @@
     
     //    NLCalendarMonthModel *nextMonthModel = [[NLCalendarMonthModel alloc]initWithDate:nextMonthDate];
     
-    self.headView.dateStr = [NSString stringWithFormat:@"%ld-%02ld",monthModel.year,monthModel.month];
+    self.headView.dateStr = [NSString stringWithFormat:@"%ld-%02ld",(long)monthModel.year,(long)monthModel.month];
     
     NSInteger firstWeekday = monthModel.firstWeekday;
     

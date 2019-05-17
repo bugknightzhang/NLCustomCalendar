@@ -33,7 +33,7 @@
     
     UIButton *closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     closeBtn.frame = CGRectMake(self.bounds.size.width-56, 0, 56, 56);
-    [closeBtn setImage:[UIImage imageNamed:@"calendar_close"] forState:UIControlStateNormal];
+    [closeBtn setImage:[self getBundleImageWithName:@"calendar_close"] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:closeBtn];
     
@@ -52,14 +52,16 @@
     UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.leftBtn = leftBtn;
     leftBtn.frame = CGRectMake(36, dateLab.frame.origin.y, 60, 60);
-    [leftBtn setImage:[UIImage imageNamed:@"calendar_left"] forState:UIControlStateNormal];
+    
+    
+    [leftBtn setImage:[self getBundleImageWithName:@"calendar_left"] forState:UIControlStateNormal];
     [leftBtn addTarget:self action:@selector(leftAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:leftBtn];
     
     UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.rightBtn = rightBtn;
     rightBtn.frame = CGRectMake(self.bounds.size.width-36-60, dateLab.frame.origin.y, 60, 60);
-    [rightBtn setImage:[UIImage imageNamed:@"calendar_right"] forState:UIControlStateNormal];
+    [rightBtn setImage:[self getBundleImageWithName:@"calendar_right"] forState:UIControlStateNormal];
     [rightBtn addTarget:self action:@selector(rightAction) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:rightBtn];
     
@@ -90,6 +92,16 @@
     if (self.rightClickBlock) {
         self.rightClickBlock();
     }
+}
+
+-(UIImage *)getBundleImageWithName:(NSString *)imageName{
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath
+                            stringByAppendingPathComponent:@"/NLCustomCalendar.bundle"];
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    UIImage *image = [UIImage imageNamed:imageName
+                                inBundle:resource_bundle
+           compatibleWithTraitCollection:nil];
+    return image;
 }
 
 

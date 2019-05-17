@@ -41,7 +41,7 @@
 }
 -(void)setModel:(NLCalendarDayModel *)model{
     _model = model;
-    self.titleLab.text = [NSString stringWithFormat:@"%ld",model.day];
+    self.titleLab.text = [NSString stringWithFormat:@"%ld",(long)model.day];
     self.selectView.hidden = YES;
 
     NSInteger todayYear = [[NSDate date] dateYear];

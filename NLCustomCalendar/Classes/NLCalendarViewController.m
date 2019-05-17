@@ -22,7 +22,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.calendarView];
     self.calendarView.selectBlock = ^(NSInteger year, NSInteger month, NSInteger day) {
-        NSLog(@"%ld年 - %ld月 - %ld日",year,month,day);
+        NSLog(@"%ld年 - %ld月 - %ld日",(long)year,(long)month,(long)day);
     };
 }
 -(NLCalendarView *)calendarView{

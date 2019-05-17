@@ -29,12 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.requires_arc = true
 
   s.source_files = 'NLCustomCalendar/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'NLCustomCalendar' => ['NLCustomCalendar/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'NLCustomCalendar' => ['NLCustomCalendar/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

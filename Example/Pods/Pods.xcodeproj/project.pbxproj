@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14355BF25EF126E52251F07149A0F990 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A36685F06B5EB3E9ACED1A6A2FAFA57 /* ReplaceMe.m */; };
+		06E5CC0553968E104CD327C7D6DAF3E6 /* NLCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8B9E873ADED9A440521E9AD27AE5B1 /* NLCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D5E0195C2DEDE0B504A36DC1308E04A /* Pods-NLCustomCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF20C1B0F6F57F1346621383922BC368 /* Pods-NLCustomCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34291C8C51AC612E4EDD66936E238D5D /* NLCustomCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B71C8724A57C9B6015279614438207 /* NLCustomCalendar-dummy.m */; };
-		4B9BE5F370F8FAC9C7AC3503F16DD1B4 /* NLCustomCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF246AA8947C42DBC4F564BED24D2501 /* NLCustomCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60CF53437E46A850FAD050250805B229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		24D919280B65B99D603992F3F308DC78 /* NLCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 195CC9CC80B647E79CB1865C69B8339A /* NLCalendarCell.m */; };
+		29AB746E89E76A71738B9B711E7829E1 /* NLCalendarWeekyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4038D9CB30996868811E5AC0B00CBF /* NLCalendarWeekyView.m */; };
+		313DB7FE7F12BE82FC872D2135288736 /* NLCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2E922D7778B24EC0EE0561BEABFA6 /* NLCalendarHeaderView.m */; };
+		32BA886152A66198B1C8EA233D68D21E /* NSDate+NLCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = F642975BEEE444A55612E994061DBCAD /* NSDate+NLCalendar.m */; };
+		3A0A39A6736555654B20E0DD7A4FD298 /* NLCustomCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC8BDFCD2C54C5DD116959CF2507E9C /* NLCustomCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBC4C5C61445CA713B923EBC1A22AB9 /* NSDate+NLCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD555812342AF23F72D5A63DEE3003D /* NSDate+NLCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DCAA957F89FA6349E73B95DB3CBD253 /* NLCustomCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 513A2986FED5FDC677EDE5561779D693 /* NLCustomCalendar-dummy.m */; };
+		57D6B09B7EE7BA2EC9166E8AEFF7DD63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		68CA05F09F3B38A155D00D051830C772 /* Pods-NLCustomCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C317ABB12B32B84C5C5550A854A044F /* Pods-NLCustomCalendar_Tests-dummy.m */; };
 		6D15BE29F3EE3E409E744C8891B00F07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7165768F5310B20D70C3B1E56EE8AEA8 /* NLCalendarWeekyView.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD69D66D00A9BC041AB77AC3CCD5BE8 /* NLCalendarWeekyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88ED54377DC49C2536E1FBD9A214E2B8 /* Pods-NLCustomCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC800A23329EDA9FF64559AF387CEA60 /* Pods-NLCustomCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92B8E9A37F819CA5ACA7ECB395B17764 /* Pods-NLCustomCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF333553C037D40DEC673F669C6B2629 /* Pods-NLCustomCalendar_Example-dummy.m */; };
+		99B2E5EB0EFAEC7B4CA2BFA7F697729E /* NLCalendarDayModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4933D05A5FA395AB81D981548240D7A9 /* NLCalendarDayModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4817E4BDD74B864D580236CE0B7CC2E /* NLCalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1E5EC31C0E24EC32947971868C353 /* NLCalendarDayModel.m */; };
+		ABF88468798FC1490A5AD76114B441F6 /* NLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4536077E552FBC907CEF0789FD75D356 /* NLCalendarView.m */; };
+		B5CC9292B7DB9173C26A1903498454CC /* NLCalendarMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 433E433269DAA6BF201CEBF5BE99A2CD /* NLCalendarMonthModel.m */; };
+		C5AA5C321063EB54811BE5588B549F89 /* NLCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = F790F4C2542B4EB8FCB8970EA7B831FA /* NLCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B6DF054BC8EBAEED21382B8C045B57 /* NLCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F8FA4F827B21C0E074BEA8CC69360 /* NLCalendarViewController.m */; };
+		DF05FBBFB835AC3D270386E9189A32A0 /* NLCustomCalendar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDF3D40CD6796DD6B2E67DEBE9965A69 /* NLCustomCalendar.bundle */; };
+		EBB28F029462AE19114C78DCA6B99241 /* NLCalendarMonthModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9055FFDB1B9C2A3DB3B56FD0E62A11F2 /* NLCalendarMonthModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E6DCC745DD657B2B74C0E2311EE3A7 /* NLCalendarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 753F2EF53BE704526A1E8A3D75DB729D /* NLCalendarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F689D654F546F685233C91821F43B769 /* NLCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 88856789C4D73C31F4F04B0608B48052 /* NLCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F75BE57A0FF45BDD6293AECA4DD1D6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F78D0E0D3A9D4B45C01BD403D9C84DF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AC49138FF0C016D9E2AE662AE0CC5E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +41,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7DD4739335E8FD280649F32A620B47FF;
+			remoteGlobalIDString = 0504FCB79DCBEAC265B77D3928F4C298;
 			remoteInfo = NLCustomCalendar;
 		};
 		97BB81C9F4B511ACE1F666C122D32D47 /* PBXContainerItemProxy */ = {
@@ -34,49 +51,81 @@
 			remoteGlobalIDString = EE6CC2372023CAA0011A7F5E0AAAB32A;
 			remoteInfo = "Pods-NLCustomCalendar_Example";
 		};
+		BBAF0B4D202EA38F1A9C81386D840C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B84D007C8213B61259D0029C482C50;
+			remoteInfo = "NLCustomCalendar-NLCustomCalendar";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03A5E37EF0FF7F1DAAC1CFB240D2B4C0 /* Pods-NLCustomCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCustomCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
-		046868251917A0A536F50260D37EBF76 /* NLCustomCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NLCustomCalendar.modulemap; sourceTree = "<group>"; };
-		118194F1B62654FD01116ABFB54CB7DD /* NLCustomCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCustomCalendar-prefix.pch"; sourceTree = "<group>"; };
-		140B4CBFA406C21508722E516EFC884C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		08FD18AABC423CA17DF9D552B0056D1E /* NLCustomCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCustomCalendar-prefix.pch"; sourceTree = "<group>"; };
+		0FC8BDFCD2C54C5DD116959CF2507E9C /* NLCustomCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCustomCalendar-umbrella.h"; sourceTree = "<group>"; };
+		195CC9CC80B647E79CB1865C69B8339A /* NLCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarCell.m; path = NLCustomCalendar/Classes/NLCalendarCell.m; sourceTree = "<group>"; };
+		1C6B4802868D05093DFA51D1D4E77BAF /* NLCustomCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NLCustomCalendar-Info.plist"; sourceTree = "<group>"; };
 		23C907980AC6268A9752748D00C16274 /* Pods-NLCustomCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCustomCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2CF06EBD5778A7CBB5C93FAA86D105C6 /* Pods_NLCustomCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLCustomCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4038D9CB30996868811E5AC0B00CBF /* NLCalendarWeekyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarWeekyView.m; path = NLCustomCalendar/Classes/NLCalendarWeekyView.m; sourceTree = "<group>"; };
+		30AC49138FF0C016D9E2AE662AE0CC5E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NLCustomCalendar/Assets/Images.xcassets; sourceTree = "<group>"; };
 		30AE1BE935BE35121BAB97A8367D2EBC /* Pods-NLCustomCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCustomCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3614B7444464531A301257D7A2E0F9DE /* Pods-NLCustomCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCustomCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		363B1E51B4E574013E1E366737873605 /* Pods-NLCustomCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCustomCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		36591681B239CB152EFC5B3E262F0DD0 /* NLCustomCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NLCustomCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		368FE9FD540608F5E4B655E8790A1FA3 /* Pods-NLCustomCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLCustomCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C317ABB12B32B84C5C5550A854A044F /* Pods-NLCustomCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLCustomCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F10EE58DF9A71426C687A81561B98D4 /* NLCustomCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLCustomCalendar.xcconfig; sourceTree = "<group>"; };
-		430431A208A2F89B0D71AD2D587B166D /* NLCustomCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NLCustomCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		433E433269DAA6BF201CEBF5BE99A2CD /* NLCalendarMonthModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarMonthModel.m; path = NLCustomCalendar/Classes/NLCalendarMonthModel.m; sourceTree = "<group>"; };
+		4536077E552FBC907CEF0789FD75D356 /* NLCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarView.m; path = NLCustomCalendar/Classes/NLCalendarView.m; sourceTree = "<group>"; };
 		455D574FD4FC5C45340BC5FAE192333F /* Pods-NLCustomCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCustomCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		462F8FA4F827B21C0E074BEA8CC69360 /* NLCalendarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarViewController.m; path = NLCustomCalendar/Classes/NLCalendarViewController.m; sourceTree = "<group>"; };
+		4933D05A5FA395AB81D981548240D7A9 /* NLCalendarDayModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarDayModel.h; path = NLCustomCalendar/Classes/NLCalendarDayModel.h; sourceTree = "<group>"; };
+		4DCD466174A22F121B4C4FD852A2F6EB /* NLCustomCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NLCustomCalendar.framework; path = NLCustomCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE8ED38ACE0D909D8F945F0D1F346B2 /* Pods-NLCustomCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NLCustomCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A36685F06B5EB3E9ACED1A6A2FAFA57 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NLCustomCalendar/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		513A2986FED5FDC677EDE5561779D693 /* NLCustomCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLCustomCalendar-dummy.m"; sourceTree = "<group>"; };
+		6FD555812342AF23F72D5A63DEE3003D /* NSDate+NLCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+NLCalendar.h"; path = "NLCustomCalendar/Classes/NSDate+NLCalendar.h"; sourceTree = "<group>"; };
+		753F2EF53BE704526A1E8A3D75DB729D /* NLCalendarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarViewController.h; path = NLCustomCalendar/Classes/NLCalendarViewController.h; sourceTree = "<group>"; };
 		79B6C27AA670289E3B70083F4A88B7D8 /* Pods-NLCustomCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NLCustomCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8792E72A9AF5AFEC742DE2B89787020D /* Pods_NLCustomCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLCustomCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E1E5EC31C0E24EC32947971868C353 /* NLCalendarDayModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarDayModel.m; path = NLCustomCalendar/Classes/NLCalendarDayModel.m; sourceTree = "<group>"; };
+		88856789C4D73C31F4F04B0608B48052 /* NLCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarCell.h; path = NLCustomCalendar/Classes/NLCalendarCell.h; sourceTree = "<group>"; };
+		9055FFDB1B9C2A3DB3B56FD0E62A11F2 /* NLCalendarMonthModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarMonthModel.h; path = NLCustomCalendar/Classes/NLCalendarMonthModel.h; sourceTree = "<group>"; };
 		92440F74489C407EBD63A6F71D2FF62B /* Pods-NLCustomCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NLCustomCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NLCustomCalendar.xcconfig; sourceTree = "<group>"; };
+		A98EB956063D54544889E2EBE0292204 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9C8301858A7B0B7280440488FA01D07 /* NLCustomCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NLCustomCalendar.modulemap; sourceTree = "<group>"; };
+		AE80DA6FF01E8A6C3A79D0C93EC79573 /* Pods_NLCustomCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NLCustomCalendar_Tests.framework; path = "Pods-NLCustomCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA2E922D7778B24EC0EE0561BEABFA6 /* NLCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NLCalendarHeaderView.m; path = NLCustomCalendar/Classes/NLCalendarHeaderView.m; sourceTree = "<group>"; };
 		B3246F7D5A3E4143E47A2CE8276135EA /* Pods-NLCustomCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLCustomCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		B7FF042C120C9BD84F9A4974F5021721 /* NLCustomCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NLCustomCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC800A23329EDA9FF64559AF387CEA60 /* Pods-NLCustomCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLCustomCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC87F0DC079796E624923D0A26C932AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CF20C1B0F6F57F1346621383922BC368 /* Pods-NLCustomCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NLCustomCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		DB3D7968D6015AF29D7BDDA6CF26996B /* Pods-NLCustomCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NLCustomCalendar_Example.modulemap"; sourceTree = "<group>"; };
-		DCEA29347C2D6A61BD042195597FB218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E97755FEA1586122499A20DB44C99F1D /* NLCustomCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NLCustomCalendar-Info.plist"; sourceTree = "<group>"; };
-		EF246AA8947C42DBC4F564BED24D2501 /* NLCustomCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NLCustomCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DDF3D40CD6796DD6B2E67DEBE9965A69 /* NLCustomCalendar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NLCustomCalendar.bundle; path = "NLCustomCalendar-NLCustomCalendar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E477FB5F1E78D20D53DDE970676BD365 /* ResourceBundle-NLCustomCalendar-NLCustomCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NLCustomCalendar-NLCustomCalendar-Info.plist"; sourceTree = "<group>"; };
+		ECD69D66D00A9BC041AB77AC3CCD5BE8 /* NLCalendarWeekyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarWeekyView.h; path = NLCustomCalendar/Classes/NLCalendarWeekyView.h; sourceTree = "<group>"; };
+		ED8B9E873ADED9A440521E9AD27AE5B1 /* NLCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarView.h; path = NLCustomCalendar/Classes/NLCalendarView.h; sourceTree = "<group>"; };
 		EF333553C037D40DEC673F669C6B2629 /* Pods-NLCustomCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NLCustomCalendar_Example-dummy.m"; sourceTree = "<group>"; };
-		F5B71C8724A57C9B6015279614438207 /* NLCustomCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NLCustomCalendar-dummy.m"; sourceTree = "<group>"; };
+		F642975BEEE444A55612E994061DBCAD /* NSDate+NLCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+NLCalendar.m"; path = "NLCustomCalendar/Classes/NSDate+NLCalendar.m"; sourceTree = "<group>"; };
+		F790F4C2542B4EB8FCB8970EA7B831FA /* NLCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NLCalendarHeaderView.h; path = NLCustomCalendar/Classes/NLCalendarHeaderView.h; sourceTree = "<group>"; };
 		FC769A6490A3E1AF7EFD302D3FAAF4A8 /* Pods-NLCustomCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NLCustomCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		FDF31DEDD21E8BC0CA1B94B1FF92905F /* Pods_NLCustomCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NLCustomCalendar_Example.framework; path = "Pods-NLCustomCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A552F1609C21A07EFC83F3D4BE9053C1 /* Frameworks */ = {
+		7BF13CE4F60D662297ECE2915404DF42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CF53437E46A850FAD050250805B229 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDAFB877C8D70C7EDF68C1BCE74D001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D6B09B7EE7BA2EC9166E8AEFF7DD63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,49 +148,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36F9AAF00FCE092F6EFF853391225DA9 /* Pod */ = {
+		20FDD56B7EB1B28E57BDD77BBEC1243A /* NLCustomCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				DCEA29347C2D6A61BD042195597FB218 /* LICENSE */,
-				430431A208A2F89B0D71AD2D587B166D /* NLCustomCalendar.podspec */,
-				140B4CBFA406C21508722E516EFC884C /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		571D17E55C43DC9978C56E1D1673D42F /* NLCustomCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				5A36685F06B5EB3E9ACED1A6A2FAFA57 /* ReplaceMe.m */,
-				36F9AAF00FCE092F6EFF853391225DA9 /* Pod */,
-				834928750FD01CAC70B1EB9F598DFCDD /* Support Files */,
+				88856789C4D73C31F4F04B0608B48052 /* NLCalendarCell.h */,
+				195CC9CC80B647E79CB1865C69B8339A /* NLCalendarCell.m */,
+				4933D05A5FA395AB81D981548240D7A9 /* NLCalendarDayModel.h */,
+				83E1E5EC31C0E24EC32947971868C353 /* NLCalendarDayModel.m */,
+				F790F4C2542B4EB8FCB8970EA7B831FA /* NLCalendarHeaderView.h */,
+				AEA2E922D7778B24EC0EE0561BEABFA6 /* NLCalendarHeaderView.m */,
+				9055FFDB1B9C2A3DB3B56FD0E62A11F2 /* NLCalendarMonthModel.h */,
+				433E433269DAA6BF201CEBF5BE99A2CD /* NLCalendarMonthModel.m */,
+				ED8B9E873ADED9A440521E9AD27AE5B1 /* NLCalendarView.h */,
+				4536077E552FBC907CEF0789FD75D356 /* NLCalendarView.m */,
+				753F2EF53BE704526A1E8A3D75DB729D /* NLCalendarViewController.h */,
+				462F8FA4F827B21C0E074BEA8CC69360 /* NLCalendarViewController.m */,
+				ECD69D66D00A9BC041AB77AC3CCD5BE8 /* NLCalendarWeekyView.h */,
+				2A4038D9CB30996868811E5AC0B00CBF /* NLCalendarWeekyView.m */,
+				6FD555812342AF23F72D5A63DEE3003D /* NSDate+NLCalendar.h */,
+				F642975BEEE444A55612E994061DBCAD /* NSDate+NLCalendar.m */,
+				588672FC1CD98655051F2063AB9BCFAF /* Pod */,
+				8C7350CA2EF53AD964C4C3ABD9D5FEAA /* Resources */,
+				5C96661BD632A5295E812FA4EF4B075E /* Support Files */,
 			);
 			name = NLCustomCalendar;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		729BF7A8FDF82B463C871BA8191B138F /* Products */ = {
+		588672FC1CD98655051F2063AB9BCFAF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				36591681B239CB152EFC5B3E262F0DD0 /* NLCustomCalendar.framework */,
-				8792E72A9AF5AFEC742DE2B89787020D /* Pods_NLCustomCalendar_Example.framework */,
-				2CF06EBD5778A7CBB5C93FAA86D105C6 /* Pods_NLCustomCalendar_Tests.framework */,
+				CC87F0DC079796E624923D0A26C932AD /* LICENSE */,
+				B7FF042C120C9BD84F9A4974F5021721 /* NLCustomCalendar.podspec */,
+				A98EB956063D54544889E2EBE0292204 /* README.md */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		834928750FD01CAC70B1EB9F598DFCDD /* Support Files */ = {
+		5C96661BD632A5295E812FA4EF4B075E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				046868251917A0A536F50260D37EBF76 /* NLCustomCalendar.modulemap */,
-				3F10EE58DF9A71426C687A81561B98D4 /* NLCustomCalendar.xcconfig */,
-				F5B71C8724A57C9B6015279614438207 /* NLCustomCalendar-dummy.m */,
-				E97755FEA1586122499A20DB44C99F1D /* NLCustomCalendar-Info.plist */,
-				118194F1B62654FD01116ABFB54CB7DD /* NLCustomCalendar-prefix.pch */,
-				EF246AA8947C42DBC4F564BED24D2501 /* NLCustomCalendar-umbrella.h */,
+				A9C8301858A7B0B7280440488FA01D07 /* NLCustomCalendar.modulemap */,
+				A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */,
+				513A2986FED5FDC677EDE5561779D693 /* NLCustomCalendar-dummy.m */,
+				1C6B4802868D05093DFA51D1D4E77BAF /* NLCustomCalendar-Info.plist */,
+				08FD18AABC423CA17DF9D552B0056D1E /* NLCustomCalendar-prefix.pch */,
+				0FC8BDFCD2C54C5DD116959CF2507E9C /* NLCustomCalendar-umbrella.h */,
+				E477FB5F1E78D20D53DDE970676BD365 /* ResourceBundle-NLCustomCalendar-NLCustomCalendar-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NLCustomCalendar";
+			sourceTree = "<group>";
+		};
+		802D98007EF767AF8742EC5456AC8B43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FDD56B7EB1B28E57BDD77BBEC1243A /* NLCustomCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8C7350CA2EF53AD964C4C3ABD9D5FEAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30AC49138FF0C016D9E2AE662AE0CC5E /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		8DA83DA0D6B5CB4FE4A178842F1E5AE9 /* Pods-NLCustomCalendar_Tests */ = {
@@ -189,9 +261,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E07B2F1551BCB3ABC11EAB5FD1FE1E49 /* Development Pods */,
+				802D98007EF767AF8742EC5456AC8B43 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				729BF7A8FDF82B463C871BA8191B138F /* Products */,
+				F90FCD60830F304F97AC4D22E6C200EF /* Products */,
 				EC9DD8385E846AE135FF6C26B06E4B24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -204,14 +276,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E07B2F1551BCB3ABC11EAB5FD1FE1E49 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				571D17E55C43DC9978C56E1D1673D42F /* NLCustomCalendar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		EC9DD8385E846AE135FF6C26B06E4B24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +283,17 @@
 				8DA83DA0D6B5CB4FE4A178842F1E5AE9 /* Pods-NLCustomCalendar_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F90FCD60830F304F97AC4D22E6C200EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3D40CD6796DD6B2E67DEBE9965A69 /* NLCustomCalendar.bundle */,
+				4DCD466174A22F121B4C4FD852A2F6EB /* NLCustomCalendar.framework */,
+				FDF31DEDD21E8BC0CA1B94B1FF92905F /* Pods_NLCustomCalendar_Example.framework */,
+				AE80DA6FF01E8A6C3A79D0C93EC79573 /* Pods_NLCustomCalendar_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +307,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D4EFF4EC163D2A7486A0DAED743F639 /* Headers */ = {
+		B1E166925460787740DBE56479289321 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9BE5F370F8FAC9C7AC3503F16DD1B4 /* NLCustomCalendar-umbrella.h in Headers */,
+				F689D654F546F685233C91821F43B769 /* NLCalendarCell.h in Headers */,
+				99B2E5EB0EFAEC7B4CA2BFA7F697729E /* NLCalendarDayModel.h in Headers */,
+				C5AA5C321063EB54811BE5588B549F89 /* NLCalendarHeaderView.h in Headers */,
+				EBB28F029462AE19114C78DCA6B99241 /* NLCalendarMonthModel.h in Headers */,
+				06E5CC0553968E104CD327C7D6DAF3E6 /* NLCalendarView.h in Headers */,
+				F3E6DCC745DD657B2B74C0E2311EE3A7 /* NLCalendarViewController.h in Headers */,
+				7165768F5310B20D70C3B1E56EE8AEA8 /* NLCalendarWeekyView.h in Headers */,
+				3A0A39A6736555654B20E0DD7A4FD298 /* NLCustomCalendar-umbrella.h in Headers */,
+				4BBC4C5C61445CA713B923EBC1A22AB9 /* NSDate+NLCalendar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,23 +334,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7DD4739335E8FD280649F32A620B47FF /* NLCustomCalendar */ = {
+		0504FCB79DCBEAC265B77D3928F4C298 /* NLCustomCalendar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A64ECE4F4A133EA3BA72B58D10A90B6F /* Build configuration list for PBXNativeTarget "NLCustomCalendar" */;
+			buildConfigurationList = 4CE785F529AABF1D1B1248C42DD71F04 /* Build configuration list for PBXNativeTarget "NLCustomCalendar" */;
 			buildPhases = (
-				2D4EFF4EC163D2A7486A0DAED743F639 /* Headers */,
-				B2FBE7F89DAD1A84BD1C280DF3EB4388 /* Sources */,
-				A552F1609C21A07EFC83F3D4BE9053C1 /* Frameworks */,
-				C496D006F6B679491E66770014EBE12C /* Resources */,
+				B1E166925460787740DBE56479289321 /* Headers */,
+				C9BE8A526BCDCE743320EF9FFB566174 /* Sources */,
+				BDDAFB877C8D70C7EDF68C1BCE74D001 /* Frameworks */,
+				F665BDD6BF41F9394AA592837EF633A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7990A5DB0BCF0690FA1535EDDEB799F4 /* PBXTargetDependency */,
+			);
+			name = NLCustomCalendar;
+			productName = NLCustomCalendar;
+			productReference = 4DCD466174A22F121B4C4FD852A2F6EB /* NLCustomCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1B84D007C8213B61259D0029C482C50 /* NLCustomCalendar-NLCustomCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29064567169D7E6B82410EF2A671C1B4 /* Build configuration list for PBXNativeTarget "NLCustomCalendar-NLCustomCalendar" */;
+			buildPhases = (
+				EA995BDF3C7639B1B00A7380423E6EF4 /* Sources */,
+				7BF13CE4F60D662297ECE2915404DF42 /* Frameworks */,
+				FA1E853E54F4F966830727D24BB3CA47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NLCustomCalendar;
-			productName = NLCustomCalendar;
-			productReference = 36591681B239CB152EFC5B3E262F0DD0 /* NLCustomCalendar.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "NLCustomCalendar-NLCustomCalendar";
+			productName = "NLCustomCalendar-NLCustomCalendar";
+			productReference = DDF3D40CD6796DD6B2E67DEBE9965A69 /* NLCustomCalendar.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		B5AFFCB4220354DB04340B7A2A68562E /* Pods-NLCustomCalendar_Tests */ = {
 			isa = PBXNativeTarget;
@@ -285,7 +386,7 @@
 			);
 			name = "Pods-NLCustomCalendar_Tests";
 			productName = "Pods-NLCustomCalendar_Tests";
-			productReference = 2CF06EBD5778A7CBB5C93FAA86D105C6 /* Pods_NLCustomCalendar_Tests.framework */;
+			productReference = AE80DA6FF01E8A6C3A79D0C93EC79573 /* Pods_NLCustomCalendar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EE6CC2372023CAA0011A7F5E0AAAB32A /* Pods-NLCustomCalendar_Example */ = {
@@ -304,7 +405,7 @@
 			);
 			name = "Pods-NLCustomCalendar_Example";
 			productName = "Pods-NLCustomCalendar_Example";
-			productReference = 8792E72A9AF5AFEC742DE2B89787020D /* Pods_NLCustomCalendar_Example.framework */;
+			productReference = FDF31DEDD21E8BC0CA1B94B1FF92905F /* Pods_NLCustomCalendar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,11 +425,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 729BF7A8FDF82B463C871BA8191B138F /* Products */;
+			productRefGroup = F90FCD60830F304F97AC4D22E6C200EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DD4739335E8FD280649F32A620B47FF /* NLCustomCalendar */,
+				0504FCB79DCBEAC265B77D3928F4C298 /* NLCustomCalendar */,
+				A1B84D007C8213B61259D0029C482C50 /* NLCustomCalendar-NLCustomCalendar */,
 				EE6CC2372023CAA0011A7F5E0AAAB32A /* Pods-NLCustomCalendar_Example */,
 				B5AFFCB4220354DB04340B7A2A68562E /* Pods-NLCustomCalendar_Tests */,
 			);
@@ -350,10 +452,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C496D006F6B679491E66770014EBE12C /* Resources */ = {
+		F665BDD6BF41F9394AA592837EF633A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF05FBBFB835AC3D270386E9189A32A0 /* NLCustomCalendar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1E853E54F4F966830727D24BB3CA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78D0E0D3A9D4B45C01BD403D9C84DF6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,15 +479,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2FBE7F89DAD1A84BD1C280DF3EB4388 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34291C8C51AC612E4EDD66936E238D5D /* NLCustomCalendar-dummy.m in Sources */,
-				14355BF25EF126E52251F07149A0F990 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B693A0E5BFAD5DB1BF46ED66C7EAC5A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,13 +487,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9BE8A526BCDCE743320EF9FFB566174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D919280B65B99D603992F3F308DC78 /* NLCalendarCell.m in Sources */,
+				A4817E4BDD74B864D580236CE0B7CC2E /* NLCalendarDayModel.m in Sources */,
+				313DB7FE7F12BE82FC872D2135288736 /* NLCalendarHeaderView.m in Sources */,
+				B5CC9292B7DB9173C26A1903498454CC /* NLCalendarMonthModel.m in Sources */,
+				ABF88468798FC1490A5AD76114B441F6 /* NLCalendarView.m in Sources */,
+				D4B6DF054BC8EBAEED21382B8C045B57 /* NLCalendarViewController.m in Sources */,
+				29AB746E89E76A71738B9B711E7829E1 /* NLCalendarWeekyView.m in Sources */,
+				4DCAA957F89FA6349E73B95DB3CBD253 /* NLCustomCalendar-dummy.m in Sources */,
+				32BA886152A66198B1C8EA233D68D21E /* NSDate+NLCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA995BDF3C7639B1B00A7380423E6EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7990A5DB0BCF0690FA1535EDDEB799F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NLCustomCalendar-NLCustomCalendar";
+			target = A1B84D007C8213B61259D0029C482C50 /* NLCustomCalendar-NLCustomCalendar */;
+			targetProxy = BBAF0B4D202EA38F1A9C81386D840C42 /* PBXContainerItemProxy */;
+		};
 		7AB124884F57909BB9872AA4FEA61D25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NLCustomCalendar;
-			target = 7DD4739335E8FD280649F32A620B47FF /* NLCustomCalendar */;
+			target = 0504FCB79DCBEAC265B77D3928F4C298 /* NLCustomCalendar */;
 			targetProxy = 3EF89C6523CFC3A809896080D25D0164 /* PBXContainerItemProxy */;
 		};
 		E727301DF782C80AC7438300DF3E8915 /* PBXTargetDependency */ = {
@@ -403,37 +534,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		167DF9E05DFC962B2C4584D3C0A60204 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F10EE58DF9A71426C687A81561B98D4 /* NLCustomCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NLCustomCalendar/NLCustomCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NLCustomCalendar/NLCustomCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NLCustomCalendar/NLCustomCalendar.modulemap";
-				PRODUCT_MODULE_NAME = NLCustomCalendar;
-				PRODUCT_NAME = NLCustomCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -487,11 +587,58 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		4BF7CA6A617C34EE465836A005FB1BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NLCustomCalendar";
+				INFOPLIST_FILE = "Target Support Files/NLCustomCalendar/ResourceBundle-NLCustomCalendar-NLCustomCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NLCustomCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		72628C6BFFEAC2A9FC6F51B35032C66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NLCustomCalendar/NLCustomCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NLCustomCalendar/NLCustomCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NLCustomCalendar/NLCustomCalendar.modulemap";
+				PRODUCT_MODULE_NAME = NLCustomCalendar;
+				PRODUCT_NAME = NLCustomCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		76CBF71ADF1893C540300AEC5C19F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -624,9 +771,25 @@
 			};
 			name = Debug;
 		};
-		C2DABA5E5AD13831BB97ED4ACE66BB1A /* Debug */ = {
+		BAB2BE836079BD6D2AEDE60558352462 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F10EE58DF9A71426C687A81561B98D4 /* NLCustomCalendar.xcconfig */;
+			baseConfigurationReference = A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NLCustomCalendar";
+				INFOPLIST_FILE = "Target Support Files/NLCustomCalendar/ResourceBundle-NLCustomCalendar-NLCustomCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NLCustomCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D02499B522B5D3FDB9BEDB4A1A043049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BED9B27CD6320924EF7193694DF0EE /* NLCustomCalendar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -649,10 +812,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E3FE26C54C92510AB951DF125A74DD59 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -733,6 +897,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		29064567169D7E6B82410EF2A671C1B4 /* Build configuration list for PBXNativeTarget "NLCustomCalendar-NLCustomCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7CA6A617C34EE465836A005FB1BCF /* Debug */,
+				BAB2BE836079BD6D2AEDE60558352462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -742,11 +915,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A64ECE4F4A133EA3BA72B58D10A90B6F /* Build configuration list for PBXNativeTarget "NLCustomCalendar" */ = {
+		4CE785F529AABF1D1B1248C42DD71F04 /* Build configuration list for PBXNativeTarget "NLCustomCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2DABA5E5AD13831BB97ED4ACE66BB1A /* Debug */,
-				167DF9E05DFC962B2C4584D3C0A60204 /* Release */,
+				72628C6BFFEAC2A9FC6F51B35032C66C /* Debug */,
+				D02499B522B5D3FDB9BEDB4A1A043049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

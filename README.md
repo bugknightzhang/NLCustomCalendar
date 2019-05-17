@@ -22,7 +22,7 @@ pod 'NLCustomCalendar'
 
 ## Author
 
-wz_yinglong, wz_yinglong@163.com
+wzyinglong, wz_yinglong@163.com
 
 ## License
 
