@@ -8,6 +8,11 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+NLCalendarViewController *page = [[NLCalendarViewController alloc]init];
+page.calendarType = windowType;
+[page showInController:self];
+```
 
 ## Requirements
 
